@@ -1,12 +1,12 @@
 # Cryptr-Salt
-Cryptr-salt is a secret store GUI built for secrets managed by SaltStack's [GPG renderer](http://docs.saltstack.com/en/latest/ref/renderers/all/salt.renderers.gpg.html). Using Salt's gpg renderer, you can securely save passwords, certificates, or other secrets on the salt master, where minions may request them as needed. This repo houses the front-end GUI to integrate with cryptr-server, which runs on a salt-master housing salt gpg-encrypted passwords. Using Cryptr-salt, a user may easily interact with the secrets in the saltstore, including reading and (eventually) modifying secrets easily.
+Cryptr-salt is a secret store GUI built for secrets managed by SaltStack's [GPG renderer](http://docs.saltstack.com/en/latest/ref/renderers/all/salt.renderers.gpg.html). Using Salt's gpg renderer, you can securely save passwords, certificates, or other secrets on the salt master, where minions may request them as needed. This repo houses the front-end GUI to integrate with cryptr-salt-server, which runs on a salt-master housing salt gpg-encrypted passwords. Using Cryptr-salt, a user may easily interact with the secrets in the saltstore, including reading and (eventually) modifying secrets easily.
 
 ![alt text](app/images/cryptr-demo.png "Cryptr")
 
 Download Binaries
 -----------------
 
-Current release can be [downloaded from here](https://github.com/jcrowthe/cryptr/releases).
+Current release can be [downloaded from here](https://github.com/jcrowthe/cryptr-salt/releases).
 Cryptr-salt supports Windows, Linux and Mac OS. It has been tested on Windows 10, Ubuntu 14.04 Desktop, and Mac OS 10.10 Yosemite.
 
 On first run, Cryptr-salt prompts you for the url of cryptr-salt-server. If you haven't already set it up, you may do so [here](https://github.com/jcrowthe/cryptr-salt-server.git).
